@@ -9,3 +9,13 @@
 7. Go comes with a standard library. This library contains many useful functions and packages that can be used to build applications.
 8. Go includes garbage collection. This means that the programmer doesn't have to worry about memory management, as the language takes care of it for you.
 9. Go is scalable. This means that it can handle large amounts of data and can be used to build large-scale applications.
+
+## Modules and Packages
+
+Package is a folder of Go files, a collection of these packages is called a module. When initialising a new project, we are really initialising a module (go mod init).
+
+## How to compile and run a Go program
+
+```bash
+go run main.go
+```
